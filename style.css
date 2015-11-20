@@ -1,0 +1,19 @@
+.flexsample {
+  margin: 5px;
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  transition: all 0.5s cubic-bezier(.18,.89,.32,1.28) 0s;
+  transform: rotate(180deg);
+}
+.flexsample:hover {
+  transform: rotate(0deg);
+  background-color: red;
+}
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
